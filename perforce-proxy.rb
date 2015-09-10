@@ -5,10 +5,10 @@ class PerforceProxy < Formula
 
   if MacOS.prefer_64_bit?
     url "http://filehost.perforce.com/perforce/r15.1/bin.darwin90x86_64/p4p"
-    sha256 "4b1d3187588f5f298607dd8a2fc26c6d95d2ef169e5c33b1a1515c22c549759a"
+    sha256 "8c057b453409fa5754504a5cb50ef5ba2fc95ab683e9e62e6c10fca6a243b949"
   else
     url "http://filehost.perforce.com/perforce/r15.1/bin.darwin90x86/p4p"
-    sha256 "975282fdfe656d48795e066a977d47743a3cb1b57465dfb265179965182a46a8"
+    sha256 "d00e99f3fc7e43be06a81aef6ab86f78b8f09aeab0d4f747faa9f4d993801ead"
   end
 
   def install
